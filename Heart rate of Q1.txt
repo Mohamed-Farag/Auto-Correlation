@@ -1,0 +1,11 @@
+-To compute the Heart rate from autocorrelation:
+ we Get the first peak after the peak at lag = 0 
+
+-first peak hapeens at lag = 455
+
+-so, the differnce between two succsive beats = 445 sample 
+
+   = 455 * (1/512) = 0.88867 sec
+
+
+-The average heart rate = 60/0.88867 = 67.5165 bpm

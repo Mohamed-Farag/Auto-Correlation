@@ -1,0 +1,23 @@
+-the periods between beats is smaller compared to that of the
+  normal ECG of Problem 1.
+
+-and that indicates that the Heart rate is greater compared to normal ECG of Problem 1.
+
+-Lag = 241 samples
+
+  = 241* 1/512 = 0.470703 sec
+
+-The average Heart Rate = 127.57616
+
+
+
+* My suggestion is the Heart rate itself - maximum normal heart rate ( 100 ) which we can calculate as follows : 
+
+** AF_measure = 60 / ( Lag / 512 ) - 100 **
+
+
+- AF_measure of problem 2 = 27.576
+
+- AF_measure of problem 1 = -`32.48352  ( the negative means that this person doesn't suffer Atrial Fibrillation )
+
+
